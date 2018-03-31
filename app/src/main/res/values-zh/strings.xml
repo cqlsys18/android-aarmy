@@ -1,0 +1,320 @@
+<resources>
+
+    <string name="app_name">Taxi Near</string>
+    <string name="title_profile">Taxi Near 司機</string>
+
+    <!-- For base Activity -->
+    <string name="tel">手提電話:</string>
+
+    <!-- For Button -->
+    <string name="lbl_redeem_information">兌換詳情 &#xf18e;</string>
+    <string name="lbl_submit">提交</string>
+    <string name="lbl_cancel_trip">取消旅程</string>
+    <string name="lbl_begin_trip">開始旅程</string>
+    <string name="lbl_update_profile">資料更新</string>
+    <string name="lbl_register">登記</string>
+    <string name="lbl_update">更新</string>
+    <string name="lbl_send">發送</string>
+    <string name="lbl_end_trip">完成旅程</string>
+    <string name="lbl_contiune">繼續</string>
+    <string name="lbl_arrived">到達</string>
+    <string name="lbl_paypal">PayPal</string>
+    <string name="lbl_logout">登出</string>
+    <string name="lbl_in_process">進行中</string>
+    
+    <string name="currency">美金</string>
+ 	<string name="unit_measure">公里</string>
+ 	
+    <!-- For Menu -->
+
+    <string name="lbl_expiration_date">到期日</string>
+    <string name="lbl_credit_cart_infomation">信用咭資料</string>
+    <string name="lbl_redit_cart">信用咭</string>
+    <string name="lbl_secure_code">安全密碼</string>
+    <string name="lbl_rating_driver">旅程所得</string>
+    <string name="lbl_trip_passenger">旅程所需</string>
+    <string name="lbl_trip_driver">此旅程取得</string>
+    <string name="lbl_id_driver">司機號碼</string>
+    <string name="lbl_name_passenger">Passenger Driver</string>
+    <string name="lbl_rate">評分</string>
+    <string name="lbl_start">開始:</string>
+    <string name="lbl_end">完結:</string>
+    <string name="lbl_profile">檔案</string>
+    <string name="lbl_home">主頁</string>
+    <string name="lbl_car_plate">車牌</string>
+    <string name="lbl_phone">手提電話</string>
+    <string name="lbl_phone_passenger">乘客電話</string>
+    <string name="lbl_promotion">推廣</string>
+    <string name="lbl_trip_history">旅程記錄</string>
+    <string name="lbl_order_confirm">訂單確認</string>
+    <string name="lbl_payment_history">記錄</string>
+    <string name="lbl_payment_transfer">選擇帳戶</string>
+    <string name="lbl_payment">付款</string>
+    <string name="lbl_share">分享</string>
+    <string name="lbl_help">幫助
+</string>
+    <string name="lbl_title_start_trip">現在開始旅程</string>
+    <string name="lbl_title_your_trip">你的旅程</string>
+    <string name="lbl_online">上線</string>
+    <string name="lbl_register_as_driver">登記成為司機</string>
+    <string name="lbl_language">Language語言</string>
+    <string name="lbl_request_car">找尋車輛</string>
+    <string name="lbl_find_car">尋找5輛3.000米半徑範圍內的車輛</string>
+    <string name="btn_book">預約</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_back">上一步</string>
+    <string name="lbl_from">從:</string>
+    <string name="lbl_to">至:</string>
+    <string name="lbl_facebook">Facebook</string>
+    <string name="lbl_google">Google Plus</string>
+    <string name="lbl_share_speak_driver">司機分享程式以獲取分</string>
+    <string name="lbl_share_speak_customer">乘客分享程式以獲取分</string>
+    <string name="lbl_share_1">司機及乘客分享程式以獲取額外分數</string>
+    <string name="lbl_description">內容</string>
+    <string name="lbl_status">狀態</string>
+    <string name="lbl_bank_accout">銀行戶口</string>
+    <string name="lbl_document">文件</string>
+    <string name="lbl_you_can_login">你可以透過Facebook, Google+登入</string>
+    <string name="lbl_Facebook_Google">透過Facebook, Google+</string>
+    <string name="lbl_payout">兌換</string>
+    <string name="lbl_avatar">指標</string>
+    <string name="lbl_name">姓名</string>
+    <string name="lbl_photo">相片</string>
+    <string name="lbl_request_link1">要求Taxi Near</string>
+    <string name="lbl_guide">你現在可以上線當司機</string>
+    <string name="email_is_not_validated">郵箱未確認</string>
+    <string name="register_success">登記成功</string>
+    <string name="update_profile_success">更新成功</string>
+    <string name="register_failed">Register Failed登記失敗</string>
+    <string name="action_cancellation_order_fee">取消旅程手續費</string>
+    <string name="action_exchange_point">交換分數</string>
+    <string name="action_redeem_point">分數兌換</string>
+    <string name="action_transfer_point">分數轉贈</string>
+    <string name="action_trip_payment">旅程付款</string>
+    <string name="action_passenger_share_bonus">乘客分享獎賞</string>
+    <string name="action_driver_share_bonus">司機分享獎賞</string>
+    <!-- For language -->
+    <string name="msg_quit_app">你是否想要離開程式?</string>
+    <string name="msg_offline">你是否想要離線?</string>
+    <string name="msg_logout">你是否想要登出?</string>
+    <string name="msg_language">你是否想要切換語言?</string>
+    <string name="msg_do_you_cancel">你是否想取消?</string>
+    <string name="msg_check_net_work">檢查網絡連接!</string>
+
+    <!-- For language -->
+    <string name="lbl_english">英文</string>
+    <string name="lbl_chinese">English</string>
+
+    <!-- For Image -->
+    <string name="content_description">Content Description內容描述</string>
+
+    <!-- Text awesome Icon -->
+    <string name="fa_bar_chart_o">&#xf080;</string>
+    <string name="fa_file_pdf_o">&#xf1c1;</string>
+    <string name="fa_calendar_o">&#xf133;</string>
+    <string name="fa_user_secret">&#xf21b;</string>
+    <string name="fa_credit_card">&#xf09d;</string>
+    <string name="ic_star">&#xf005;</string>
+    <string name="ic_user">&#xf007;</string>
+    <string name="ic_home">&#xf015;</string>
+    <string name="ic_payment">&#xf0d6;</string>
+    <string name="ic_promotion">&#xf0a3;</string>
+    <string name="ic_share">&#xf1e0;</string>
+    <string name="ic_help">&#xf1cd;</string>
+    <string name="ic_history">&#xf1da;</string>
+    <string name="ic_online">&#xf0eb;</string>
+    <string name="ic_register_as_driver">&#xf1ba;</string>
+    <string name="ic_language">&#xf1ab;</string>
+    <string name="ic_phone">&#xf095;</string>
+    <string name="ic_rate">&#xf012;</string>
+    <string name="ic_menu">&#xe636;</string>
+    <string name="ic_facebook">&#xf09a;</string>
+    <string name="ic_google">&#xf0d5;</string>
+    <string name="ic_search">&#xe618;</string>
+    <string name="ic_note">&#xf0f6;</string>
+    <string name="ic_dolar"> &#xf155;</string>
+    <string name="ic_length">&#xf07e;</string>
+    <string name="ic_blance">&#xf19c;</string>
+    <string name="ic_point">&#xf1c4;</string>
+    <string name="ic_save">&#xe65f;</string>
+    <string name="ic_photo">&#xf03e;</string>
+    <string name="ic_avatar">&#xf234;</string>
+    <string name="ic_model">&#xf091;</string>
+    <string name="ic_year">&#xf073;</string>
+    <string name="ic_mail">&#xf003;</string>
+    <string name="ic_add">&#xf041;</string>
+    <string name="ic_des">&#xf05a;</string>
+
+    <string name="ic_brand">&#xf000;</string>
+    <string name="ic_money">&#xf0d6;</string>
+    <string name="ic_logout">&#xf011;</string>
+    <string name="lbl_enter_real_distance">輸入實際距離 (公里)</string>
+    <string name="lbl_message_real_distance">實際距離 (公里)</string>
+    <string name="lbl_link1">1個可使用座位 (Link I)</string>
+    <string name="lbl_link2">2個可使用座位 (Link II)</string>
+    <string name="lbl_link3">3個可使用座位 (Link III)</string>
+    <string name="lbl_request_link">已發送出你的LINK I請求</string>
+    <string name="lbl_you_are_now_online">你現在已上線</string>
+    <string name="lbl_waiting_for_request">等候LINK要求</string>
+    <string name="lbl_awaiting">n等候司機確認</string>
+    <string name="lbl_please">請稍候</string>
+    <string name="lbl_please_wait_ten">(請等候10秒作示範)</string>
+    <string name="btn_cancel_trip">取消旅程</string>
+    <string name="lbl_offline">離線</string>
+    <string name="lbl_header_start_trip">你的司機已到達</string>
+    <string name="lbl_header_trip_online">開始你的旅程</string>
+    <string name="ic_gps">&#xe6bb;</string>
+    <string name="lbl_address">地址</string>
+    <string name="lbl_email">電郵</string>
+    <string name="lbl_brand_car">車輛品牌</string>
+    <string name="lbl_year_manufacturer">製造年份</string>
+    <string name="lbl_model_car">車輛型號</string>
+    <string name="lbl_header_trip_history">your driver is detail trip</string>
+    <string name="lbl_trip_detail">你的旅程詳細</string>
+    <string name="lbl_header_driver_start_trip">你的司機已到達</string>
+    <string name="lbl_show_passenger">請前往你的乘客所在位置</string>
+    <string name="lbl_your_end_trip">你的旅程已完結</string>
+    <string name="lbl_rating">評分司機</string>
+    <string name="lbl_rating_link">評分</string>
+    <string name="lbl_starting_location">開始</string>
+    <string name="lbl_ending_location">完結</string>
+    <string name="lbl_starting_location2">25 Los Angeles, America </string>
+    <string name="lbl_ending_location2">117 Los Angeles, American</string>
+    <string name="ic_twitter">&#xf173;</string>
+    <string name="ic_paypal">&#xf1ed;</string>
+    <string name="lbl_rating_passenger">評分乘客</string>
+
+    <!-- Text 7-stroke Icon -->
+    <string name="pe_7s_map_marker">&#xe638;</string>
+    <string name="pe_7s_menu">&#xe636;</string>
+    <string name="ic_back">&#xf177;</string>
+
+    <!-- Text Demo -->
+    <string name="user_name">Steve Kwok Wah Au</string>
+    <string name="points">Points: 10000</string>
+    <string name="name">John doe</string>
+    <string name="a_123">A123 546 897</string>
+    <string name="car_plate">29A - 8888</string>
+    <string name="rate">5</string>
+    <string name="phone">0987654321</string>
+    <string name="start_a">A 地點</string>
+    <string name="start_b">B 地點</string>
+    <string name="lbl_distance_between">你與司機的距離</string>
+    <string name="lbl_passenger">乘客</string>
+    <string name="lbl_passenger2">乘客2</string>
+    <string name="lbl_passenger_name">乘客名稱</string>
+    <string name="lbl_twitter">Twitter</string>
+    <string name="lbl_recharge_via_paypal">透過paypal充值</string>
+    <string name="lbl_transfers">轉贈</string>
+    <string name="lbl_request_conversion_point">Request conversion point</string>
+    <string name="lbl_total_point">數分數</string>
+    <string name="btnRequest">請求</string>
+    <string name="lbl_point_number">總分數</string>
+    <string name="lbl_yes">是</string>
+    <string name="lbl_no">否</string>
+    <string name="lbl_driver_is_coming">你的司機正前往</string>
+    <string name="lbl_conversion_point">Conversion point</string>
+    <string name="lbl_conversion_point_number">Conversion point number:</string>
+    <string name="lbl_point_max">Point max:</string>
+    <string name="lbl_numberpoint">100</string>
+    <string name="lbl_maxpoint">1000</string>
+    <string name="lbl_title_dialog">Invites you to enter the number of points</string>
+    <string name="lbl_number_transfer">Enter number transfers</string>
+    <string name="lbl_note">1100 points = HK$1000</string>
+    <string name="lbl_note_2">2000 points = HK$2000</string>
+    <string name="lbl_updateprofile">更新檔案</string>
+    <string name="model">R8 Black</string>
+    <string name="brand">Audi</string>
+    <string name="year">2010</string>
+    <string name="address">Los Angeles, America</string>
+    <string name="dob">19/06/1993</string>
+    <string name="description">Description</string>
+    <string name="email">fruity@gmail.com</string>
+
+    <!-- Text Trip History -->
+    <string name="lbl_kilometer">公里</string>
+    <string name="lbl_hour">分鐘</string>
+    <string name="lbl_transaction_id">旅程Id</string>
+    <string name="lbl_link_trip">Link</string>
+    <string name="lbl_driver_history">司機姓名</string>
+    <string name="lbl_to_history">完結時間</string>
+    <string name="lbl_from_history">開始時間</string>
+    <string name="lbl_destination_history">目的地</string>
+    <string name="lbl_place_history">出發</string>
+    <string name="lbl_date_history">日期</string>
+    <string name="lbl_total_history">總計</string>
+    <string name="lbl_total_time_history">時間</string>
+    <string name="lbl_total_length_history">Length</string>
+    <string name="lbl_total_point_history">總分數</string>
+    <string name="demo_id_history">#123</string>
+    <string name="demo_name_history">Mack Jone</string>
+    <string name="demo_date">8:30, 22/6/2015</string>
+    <string name="demo_time">1</string>
+    <string name="demo_length">40</string>
+    <string name="demo_total">60 point</string>
+    <string name="demo_place">Michigan Ave</string>
+    <string name="demo_destination">Union Pacific</string>
+    <string name="btnupdateprofile">更新</string>
+    <string name="btnnoupdateprofile">否</string>
+    <string name="lbl_namedrive">A123 456 789</string>
+    <string name="lbl_request_passenger">請求乘客</string>
+    <string name="lblreceiver_link">你收到LINK請求</string>
+    <string name="lbl_request_by_passenger">乘客請求</string>
+    <string name="lbl_your_balance"> 你的餘額</string>
+    <string name="lbl_balance">餘額:</string>
+    <string name="lbl_success">成功</string>
+
+    <!-- Text Payment -->
+    <string name="lbl_gender">性別</string>
+    <string name="lbl_transactionId">交易ID</string>
+    <string name="lbl_points">分數</string>
+    <string name="lbl_notes">備註</string>
+    <string name="lbl_datetime">日期時間</string>
+    <string name="lbl_type">類型</string>
+    <string name="lbl_for">For</string>
+    <string name="lbl_passenger_mobile">乘客手機</string>
+    <string name="lbl_your_passenger_name">乘客姓名</string>
+    <string name="demo_for_pament">資料</string>
+    <string name="lbl_content_help">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. including versions of Lorem Ipsum.</string>
+    <string name="lbl_section_help_one">Taxi Near, a emerging true ride sharing mobile platform to link up passenger with driver</string>
+    <string name="lbl_section_help_two">Whether you are driver driving with your relatives and friend, you can also share your journey with other passenger with simialr route.</string>
+    <string name="lbl_section_help_three">© 2015 by Mobile App. Proudly created by Taxi Near</string>
+    <string name="lbl_contact_help">聯絡我們:</string>
+    <string name="lbl_link_contact_help">hicomsolutions@gmail.com</string>
+    <string name="lbl_help_bottom">Taxi Near is not a transportation company.</string>
+    <string name="message_have_some_error">系統出錯, 請稍後再試</string>
+    <string name="message_can_not_get_gmc">請稍後再試</string>
+    <string name="message_please_select_start_and_end">請選擇開始及完結地點</string>
+    <string name="message_please_enter_amount">請輸入總數</string>
+    <string name="message_amount_is_not_validate">總數無效</string>
+    <string name="message_wait_for_location">Wait for location service</string>
+    <string name="message_please_enter_distance">請輸入距離</string>
+    <string name="message_please_install_file_manager">請安裝檔案管理員</string>
+    <string name="message_please_enter_full_information">請輸入詳細資料</string>
+    <string name="message_your_balance_is_not_eounght">你的餘額不足, 你需要... </string>
+    <string name="message_point">分數</string>
+    <string name="message_you_trip_cancel_by_driver">你的訂單已被司機取消</string>
+    <string name="message_you_request_cancel_by_driver">你的請求已被司機取消</string>
+    <string name="message_you_trip_cancel_by_passenger">你的訂單已被乘客取消</string>
+    <string name="message_register_success">登記成功</string>
+    <string name="message_update_driver">你更新的資料待確認</string>
+    <string name="message_have_no_more_data">沒有更多數據</string>
+    <string name="message_your_account_in_wait">你的帳戶正在等候管理員批核</string>
+    <string name="select_photo_from">由Gallery取得影像</string>
+    <string name="gallery">相簿</string>
+    <string name="camera">相機</string>
+    <string name="login_fail">登入失敗, 請稍後再試</string>
+    <string name="message_please_enter_point">請輸入分數</string>
+    <string name="message_point_invalid">你沒有足夠分數</string>
+    <string name="message_point_min">請最少輸入500分</string>
+    <string name="message_point_select">0請輸入3000或5000分</string>
+	<string name="message_turn_on_gps">請在旅程開始前開啟衛星定位</string>
+	<string name="msg_call_phone">沒有電話號碼</string>
+    <string name="msg_no_phone_number">請提出訂單前，更新手機號碼</string>
+
+	<string name="alert_gps">你的衛星定位似乎已停用, 請啟用</string>
+
+    <string name="notify_file_upload_size">請選擇最大文件大小為2Mb</string>
+
+
+</resources>

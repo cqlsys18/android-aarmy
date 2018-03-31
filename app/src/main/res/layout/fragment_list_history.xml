@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_header" />
+
+    <com.alaryani.aamrny.widget.pulltorefresh.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lsvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:paddingLeft="@dimen/space_tiny"
+        android:paddingRight="@dimen/space_tiny"
+        android:scrollbars="none"
+        ptr:ptrMode="both"
+       >
+    </com.alaryani.aamrny.widget.pulltorefresh.PullToRefreshListView>
+
+</LinearLayout>

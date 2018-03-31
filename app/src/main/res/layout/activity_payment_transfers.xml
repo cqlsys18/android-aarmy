@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_tiny"
+        android:paddingRight="@dimen/space_tiny">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_tiny">
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/ic_blance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_tiny"
+                android:layout_marginRight="@dimen/space_tiny"
+                android:gravity="center_vertical"
+                android:text="@string/lbl_your_balance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <!--<hcpttaxinear.widget.TextViewRaleway-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:text=" (points)"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/text_size_normal" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.alaryani.aamrny.widget.TextViewRaleway
+        android:id="@+id/lbl_Balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_xlarge"
+        android:layout_marginRight="@dimen/space_xlarge"
+        android:background="@color/transparent"
+        android:gravity="center_vertical|right"
+        android:text="3000"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_header" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_nano"
+        android:layout_marginTop="@dimen/space_small"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_tiny"
+        android:paddingRight="@dimen/space_tiny">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_tiny">
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/ic_mail"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_tiny"
+                android:layout_marginRight="@dimen/space_tiny"
+                android:gravity="center_vertical"
+                android:text="@string/receiver_phone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/lblTransferId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_xlarge"
+        android:layout_marginRight="@dimen/space_xlarge"
+        android:background="@drawable/bg_textbox_white"
+        android:gravity="center_vertical"
+        android:hint="@string/phone_placeholder"
+        android:inputType="number"
+        android:padding="@dimen/padding_vertical"
+        android:textColor="@color/white"
+        android:textColorHint="@color/transparent_white"
+        android:textSize="@dimen/text_size_normal" />
+
+    <!--     <LinearLayout -->
+    <!--         android:layout_width="match_parent" -->
+    <!--         android:layout_height="wrap_content"                 -->
+    <!--         android:layout_marginTop="@dimen/space_small" -->
+    <!--         android:orientation="horizontal" -->
+    <!--         android:paddingRight="@dimen/space_small" -->
+    <!--         android:weightSum="2" > -->
+
+    <!--         <LinearLayout -->
+    <!--             android:layout_width="0dp" -->
+    <!--             android:layout_height="wrap_content" -->
+    <!--             android:layout_weight="1" -->
+    <!--             android:orientation="horizontal" -->
+    <!--             android:padding="@dimen/space_tiny" -->
+    <!--             android:weightSum="10" > -->
+
+    <!--             <hcpttaxinear.widget.TextViewFontAwesome -->
+    <!--                 android:layout_width="0dp" -->
+    <!--                 android:layout_height="wrap_content" -->
+    <!--                 android:layout_weight="1.5" -->
+    <!--                 android:background="@color/transparent" -->
+    <!--                 android:gravity="center" -->
+    <!--                 android:text="@string/ic_point" -->
+    <!--                 android:textColor="@color/white" -->
+    <!--                 android:textSize="@dimen/text_size_normal" /> -->
+
+    <!--             <hcpttaxinear.widget.TextViewRaleway -->
+    <!--                 android:layout_width="0dp" -->
+    <!--                 android:layout_height="match_parent" -->
+    <!--                 android:layout_weight="8.5" -->
+    <!--                 android:background="@color/transparent" -->
+    <!--                 android:gravity="center_vertical" -->
+    <!--                 android:text="Points" -->
+    <!--                 android:textColor="@color/white" -->
+    <!--                 android:textSize="@dimen/text_size_normal" /> -->
+    <!--         </LinearLayout> -->
+
+    <!--         <EditText -->
+    <!--             android:id="@+id/lbl_Point" -->
+    <!--             android:layout_width="0dp" -->
+    <!--             android:layout_height="wrap_content" -->
+    <!--             android:layout_weight="1" -->
+    <!--             android:background="@drawable/bg_textbox_white" -->
+    <!--             android:padding="@dimen/padding_vertical" -->
+    <!--             android:gravity="center_vertical|right" -->
+    <!--             android:hint="0" -->
+    <!--             android:textColorHint="@color/white" -->
+    <!--             android:inputType="number" -->
+    <!--             android:textColor="@color/white" -->
+    <!--             android:textSize="@dimen/text_size_normal" /> -->
+    <!--     </LinearLayout> -->
+
+    <!--     <TextView -->
+    <!--         android:layout_width="match_parent" -->
+    <!--         android:layout_height="wrap_content" -->
+    <!--         android:background="@color/transparent" -->
+    <!--         android:gravity="center_horizontal" -->
+    <!--         android:layout_marginTop="@dimen/margin_vertical_large" -->
+    <!--         android:layout_marginBottom="@dimen/margin_vertical" -->
+    <!--         android:text="@string/lbl_note" -->
+    <!--         android:textColor="@color/white" -->
+    <!--         android:textSize="@dimen/text_size_small" -->
+    <!--         android:textStyle="italic" /> -->
+    <TextView
+        android:id="@+id/btnContinue"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginBottom="@dimen/margin_vertical_large"
+        android:layout_marginLeft="@dimen/margin_horizontal_xlarge"
+        android:layout_marginRight="@dimen/margin_horizontal_xlarge"
+        android:layout_marginTop="@dimen/space_normal"
+        android:background="@color/to"
+        android:gravity="center"
+        android:text="@string/lbl_contiune"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large" />
+
+    <TextView
+        android:id="@+id/lbl_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_vertical_large"
+        android:layout_marginLeft="@dimen/margin_horizontal_large"
+        android:layout_marginRight="@dimen/margin_horizontal_large"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        style="@style/Layout.FillWidthHeight"
+        android:background="@color/bg_menu"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/space_small">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.alaryani.aamrny.widget.CircleImageView
+                        android:id="@+id/img_avartar"
+                        android:layout_width="@dimen/avatar_size"
+                        android:layout_height="@dimen/avatar_size"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/ic_avartar"
+                        app:border_color="@color/white"
+                        app:border_width="2dp" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/txt_point"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical|left"
+                        android:paddingLeft="@dimen/space_small"
+                        android:text="@string/points"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/txt_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_tiny"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:text="@string/user_name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_large" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="@style/userRatingBarWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/space_tiny"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressDrawable="@drawable/bg_rating_bar_white"
+                    android:rating="0"
+                    android:stepSize="0.5" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/space_tiny">
+
+                <LinearLayout
+                    android:id="@+id/btn_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_home"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_home"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_home"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_home"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_profile"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_user"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_profile"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_profile"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_payment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/fa_credit_card"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_payment"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_share"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_share"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_share"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_share"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_share"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_help"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_help"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_help"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_help"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_trip_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_trip_history"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_history"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_trip_history"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_trip_history"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_online"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_online"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_online"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_online"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_online"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_register_driver"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_register_driver"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_register_as_driver"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_register_driver"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_register_as_driver"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny"
+                    android:visibility="visible"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_language"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_language"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_language"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="8.5"
+                        android:paddingLeft="@dimen/margin_horizontal_large_32"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/change_language"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/space_tiny"
+                    android:orientation="horizontal"
+                    android:visibility="visible"
+                    android:padding="@dimen/space_tiny"
+                    android:weightSum="10">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/ic_logout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:background="@color/transparent"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="@string/ic_logout"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/space_normal" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lbl_logout"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_weight="8.5"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:paddingLeft="@dimen/space_large"
+                        android:text="@string/lbl_logout"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_xlarge" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/space_tiny" >
+
+
+    <LinearLayout
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/white"
+
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome
+            android:id="@+id/ic_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@color/transparent"
+            android:gravity="center_vertical|left"
+            android:layout_marginLeft="@dimen/space_normal"
+            android:text="@string/ic_money"
+            android:textColor="@color/bg_menu"
+            android:textSize="@dimen/text_size_normal" />
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/txtDateTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.0"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/bg_menu"
+            android:textSize="@dimen/text_size_normal" />
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/lblDestination"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.0"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="+1423"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlarge" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/space_tiny"
+        android:paddingLeft="@dimen/space_small"
+        android:weightSum="3" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:text="@string/lbl_transactionId"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTransactionID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text="12"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_small"
+        android:layout_marginTop="@dimen/space_tiny"
+        android:weightSum="3" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:id="@+id/lblTripIdHead"
+            android:text="@string/lbl_transaction_id"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTripID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:paddingLeft="@dimen/space_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/space_tiny"
+        android:weightSum="3" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/lbl_notes"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:gravity="center_vertical|left"
+            android:textSize="@dimen/text_size_normal"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

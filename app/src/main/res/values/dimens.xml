@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Margin, padding -->
+    <dimen name="zezo">0dp</dimen>
+    <dimen name="space_nano">4dp</dimen>
+    <dimen name="space_tiny">8dp</dimen>
+    <dimen name="space_small">16dp</dimen>
+    <dimen name="space_normal">24dp</dimen>
+    <dimen name="space_large">32dp</dimen>
+    <dimen name="space_xlarge">40dp</dimen>
+    <dimen name="space_xlargex">48dp</dimen>
+    <dimen name="space_4x">64dp</dimen>
+
+    <dimen name="dimen_2x">16dp</dimen>
+
+    <dimen name="space_xxlarge">200dp</dimen>
+
+    <dimen name="icon_width">18dp</dimen>
+
+    <dimen name="text_button_back">28sp</dimen>
+    <dimen name="text_point">24sp</dimen>
+    <!-- Margin, padding -->
+    <dimen name="padding_vertical">10dp</dimen>
+    <dimen name="padding_vertical_large">20dp</dimen>
+    <dimen name="padding_horizontal">10dp</dimen>
+    <dimen name="padding_horizontal_large">20dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name="margin_vertical">10dp</dimen>
+    <dimen name="margin_vertical_large">20dp</dimen>
+    <dimen name="margin_vertical_xlarge">40dp</dimen>
+    <dimen name="margin_horizontal">10dp</dimen>
+    <dimen name="margin_horizontal_large">20dp</dimen>
+    <dimen name="margin_horizontal_large_32">32dp</dimen>
+    <dimen name="margin_horizontal_xlarge">40dp</dimen>
+    <dimen name="margin_horizontal_xxlarge">50dp</dimen>
+    <dimen name="margin_vertical_xxlarge">60dp</dimen>
+    <dimen name="margin_vertical_xxxlarge">280dp</dimen>
+
+    <dimen name="margin_small">5dp</dimen>
+
+    <!-- Text size -->
+
+    <dimen name="text_size_tiny">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_header">22sp</dimen>
+    <dimen name="text_size_star">28sp</dimen>
+
+    <!-- Others -->
+    <dimen name="height_admob">50dp</dimen>
+    <dimen name="height_row_drawer_league">100dp</dimen>
+    <dimen name="width_row_drawer_league">40dp</dimen>
+    <dimen name="width_logo_club_info">100dp</dimen>
+    <dimen name="height_logo_club_info">100dp</dimen>
+    <dimen name="width_button_view_club">150dp</dimen>
+    <dimen name="height_tabs">50dp</dimen>
+    <dimen name="width_app_item">80dp</dimen>
+    <dimen name="height_app_item">80dp</dimen>
+    <dimen name="height_league_logo">50dp</dimen>
+    <dimen name="width_league_logo">50dp</dimen>
+    <dimen name="width_league_drawer">160dp</dimen>
+    <dimen name="height_rank_row">50dp</dimen>
+    <dimen name="height_new_row">50dp</dimen>
+    <dimen name="width_new_image">80dp</dimen>
+
+    <!-- Menu -->
+    <dimen name="avatar_size">80dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="height_header">50dp</dimen>
+    <dimen name="width_menu">50dp</dimen>
+    <dimen name="margin_left_ic">30dp</dimen>
+    <dimen name="width_ic_login_facebook">10dp</dimen>
+    <dimen name="width_ic_login_google">20dp</dimen>
+    <dimen name="height_ic_login">15dp</dimen>
+    <dimen name="menu_size">80dp</dimen>
+
+    <!-- Icon size -->
+    <dimen name="width_icon">20dp</dimen>
+    <dimen name="height_icon">20dp</dimen>
+    <dimen name="width">180dp</dimen>
+    <dimen name="height">150dp</dimen>
+    <dimen name="width_button">250dp</dimen>
+    <dimen name="height_button">50dp</dimen>
+
+    <!-- Button size -->
+    <dimen name="btn_width">160dp</dimen>
+    <dimen name="btn_width_170">190dp</dimen>
+    <dimen name="btn_width1">200dp</dimen>
+    <dimen name="btn_height">60dp</dimen>
+
+    <!-- Button size -->
+    <dimen name="btn_height_small">40dp</dimen>
+
+    <!--     Dialog size -->
+    <dimen name="dialog_width">300dp</dimen>
+
+    <!-- Profile -->
+    <dimen name="profile_header">230dp</dimen>
+    <dimen name="profile_header_image">180dp</dimen>
+    <dimen name="profile_avartar_size">96dp</dimen>
+    <dimen name="profile_avartar_margin_top">72dp</dimen>
+    <dimen name="profile_avartar_width">240dp</dimen>
+
+    <!--     Trip -->
+    <dimen name="size_img_header">100dp</dimen>
+    <dimen name="size_text_header">50dp</dimen>
+    <dimen name="size_paypal">90dp</dimen>
+
+    <dimen name="img_size_passeger">72dp</dimen>
+    <dimen name="height_image_car">130dp</dimen>
+    <!--margin-->
+    <dimen name="margin_left_button">76dp</dimen>
+    <dimen name="dimen_5x">40dp</dimen>
+    <dimen name="dimen_6x">48dp</dimen>
+    <dimen name="dimen_7x">56dp</dimen>
+    <dimen name="dimen_025x">2dp</dimen>
+    <dimen name="dimen_05x">4dp</dimen>
+    <dimen name="dimen_1x">8dp</dimen>
+</resources>

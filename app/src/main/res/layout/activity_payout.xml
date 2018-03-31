@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_tiny"
+        android:paddingRight="@dimen/space_tiny">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_tiny"
+
+            >
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text="@string/ic_blance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_tiny"
+                android:layout_marginRight="@dimen/space_tiny"
+                android:gravity="center_vertical"
+                android:text="@string/lbl_your_balance"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+
+                />
+
+            <!--<hcpttaxinear.widget.TextViewRaleway-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="bottom"-->
+            <!--android:text=" (points)"-->
+            <!--android:textColor="@color/text_hint"-->
+            <!--android:textSize="@dimen/text_size_normal" />-->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.alaryani.aamrny.widget.TextViewRaleway
+        android:id="@+id/lbl_Balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_xlarge"
+        android:layout_marginRight="@dimen/space_xlarge"
+        android:background="@color/transparent"
+        android:gravity="center_vertical|right"
+        android:text="3000"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_header"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_nano"
+        android:layout_marginTop="@dimen/space_small"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_tiny"
+        android:paddingRight="@dimen/space_tiny">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/space_tiny">
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/ic_money"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_tiny"
+                android:layout_marginRight="@dimen/space_tiny"
+                android:gravity="center_vertical"
+                android:text="@string/amount_dollar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <!--<hcpttaxinear.widget.TextViewRaleway-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:text=" (USD)"-->
+            <!--android:textColor="@color/text_hint"-->
+            <!--android:textSize="@dimen/text_size_normal" />-->
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/lbl_Point"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_xlarge"
+        android:layout_marginRight="@dimen/space_xlarge"
+        android:background="@drawable/bg_textbox_white"
+        android:gravity="center_vertical"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:hint="0"
+        android:inputType="number"
+        android:padding="@dimen/padding_vertical"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/text_size_normal" />
+
+
+    <LinearLayout
+        android:id="@+id/btnContinue"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="@dimen/margin_horizontal_xlarge"
+        android:layout_marginRight="@dimen/margin_horizontal_xlarge"
+        android:layout_marginTop="@dimen/space_normal"
+        android:background="@color/to"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="@dimen/size_paypal"-->
+        <!--android:layout_height="@dimen/margin_vertical_large"-->
+        <!--android:src="@drawable/paypal_logo_new" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnStripe"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="@dimen/margin_horizontal_xxlarge"
+        android:layout_marginTop="@dimen/space_normal"
+        android:background="@color/blue_android"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:text="Stripe"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="@dimen/size_paypal"-->
+        <!--android:layout_height="@dimen/margin_vertical_large"-->
+        <!--android:src="@drawable/paypal_logo_new" />-->
+    </LinearLayout>
+
+
+    <com.alaryani.aamrny.widget.TextViewFontAwesome
+        android:id="@+id/lbl_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_vertical_large"
+        android:layout_marginLeft="@dimen/margin_horizontal_large"
+        android:layout_marginRight="@dimen/margin_horizontal_large"
+        android:gravity="center"
+        android:text="@string/lbl_redeem_information"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/lbl_Error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_vertical_large"
+        android:layout_marginLeft="@dimen/margin_horizontal_large"
+        android:layout_marginRight="@dimen/margin_horizontal_large"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large" />
+
+</LinearLayout>

@@ -1,0 +1,554 @@
+<resources>
+
+    <string name="app_version">Version 2.5</string>
+    <string name="title_profile">Taxi Near Driver</string>
+    <string name="title_transfer">Transfer</string>
+    <string name="title_redeem">Payout</string>
+    <string name="title_payment">Deposit</string>
+    <string name="title_trans_history">Transaction Histories</string>
+    <string name="title_trip_history">Trip Histories</string>
+
+    <string name="ic_header_cirle_full">&#xf111;</string>
+    <string name="ic_header_cirle">&#xf10c;</string>
+
+    <!-- For base Activity -->
+    <string name="tel">tel:</string>
+
+    <!-- For Button -->
+    <string name="lbl_redeem_information">Redeem Information &#xf18e;</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_cancel_trip">CANCEL TASK</string>
+    <string name="lbl_begin_trip">BEGIN TASK</string>
+    <string name="lbl_update_profile">Update Profile</string>
+    <string name="lbl_browse">BROWSE</string>
+    <string name="lbl_register">REGISTER</string>
+    <string name="lbl_update">UPDATE</string>
+    <string name="lbl_send">SEND</string>
+    <string name="lbl_end_trip">END TASK</string>
+    <string name="lbl_contiune">Continue</string>
+    <string name="lbl_arrived">Arrived</string>
+    <string name="lbl_arrived_a">Arrived A</string>
+    <string name="lbl_arrived_b">Tasker arrived B</string>
+    <string name="lblBeginTask">Tasker on Task</string>
+    <string name="lbl_driver_arrived">Tasker arrived A</string>
+    <string name="lbl_paypal">PayPal</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_in_process">In process</string>
+    <string name="lbl_on_the_trip">On the trip</string>
+    <string name="lblTaskerArrivingB">Tasker arriving B</string>
+    <string name="lblArrivingB">Arriving B</string>
+    <string name="lbl_contact_help"></string>
+    <string name="lbl_link_contact_help"></string>
+    <string name="currency">USD</string>
+    <string name="unit_measure">Km</string>
+
+    <!-- For Menu -->
+
+    <string name="lbl_expiration_date">Expiration date</string>
+    <string name="lbl_credit_cart_infomation">Credit cart information</string>
+    <string name="lbl_redit_cart">Credit Cart</string>
+    <string name="lbl_secure_code">Secure Code</string>
+    <string name="lbl_rating_driver">Your task get</string>
+    <string name="lbl_trip_passenger">Your task need</string>
+    <string name="lbl_trip_driver">You earn from this task</string>
+    <string name="lbl_id_driver">Id Tasker</string>
+    <string name="lbl_name_passenger">Customer Tasker</string>
+    <string name="lbl_rate">Rate</string>
+    <string name="lbl_start">Start:</string>
+    <string name="lbl_end">End:</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_car_plate">Car Plate:</string>
+    <string name="lbl_car_plate_hint">Car Plate</string>
+    <string name="lbl_plate">Plate</string>
+    <string name="lbl_identity">Identity</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_phone_passenger">Customer phone</string>
+    <string name="lbl_promotion">Promotion</string>
+    <string name="lbl_trip_history">Tasks Histories</string>
+    <string name="lbl_order_confirm">Order Confirmed</string>
+    <string name="lbl_payment_history">Histories</string>
+    <string name="lbl_payment_transfer">Select Account</string>
+    <string name="lbl_payment">Payment</string>
+    <string name="lbl_paynow">Pay Now</string>
+    <string name="lbl_share">Share</string>
+    <string name="lbl_help">Help</string>
+    <string name="lbl_title_start_trip">Start Task Now</string>
+    <string name="lbl_title_your_trip">Your Task</string>
+    <string name="lbl_online">ONLINE</string>
+    <string name="lbl_offline">OFFLINE</string>
+
+    <string name="lbl_register_as_driver">As Tasker</string>
+    <string name="lbl_language">Language</string>
+    <string name="lbl_request_car">Request Task</string>
+    <string name="lbl_find_car">Find 5 car in 3.000m radius</string>
+    <string name="btn_book">Book</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="lbl_from">A</string>
+    <string name="lbl_to">B</string>
+    <string name="lbl_facebook">Facebook</string>
+    <string name="lbl_google">Google Plus</string>
+    <string name="lbl_share_speak_driver">Share to get $50 for takser</string>
+    <string name="lbl_share_speak_customer">or $20 for customer</string>
+    <string name="lbl_share_1">Share to get $ for tasker and customer</string>
+    <string name="lbl_description">Description</string>
+    <string name="lbl_status">Status</string>
+    <string name="lbl_bank_accout">Bank Account</string>
+    <string name="lbl_document">Document</string>
+    <string name="lblTypeCar">Task Type</string>
+    <string name="lblJobCar">Task Type</string>
+    <string name="lbl_you_can_login">You can login with Facebook, Google+</string>
+    <string name="lbl_Facebook_Google">with Facebook, Google+</string>
+    <string name="lbl_payout">Payout</string>
+    <string name="lbl_avatar">Avatar</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_photo">Photo</string>
+    <string name="lbl_request_link1">Request Link</string>
+    <string name="lbl_guide">You can online to ready working as a tasker</string>
+    <string name="email_is_not_validated">Email is not validated</string>
+    <string name="register_success">Register Success</string>
+    <string name="update_profile_success">Update Success</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="action_cancellation_order_fee">CANCELLATION_ORDER_FEE</string>
+    <string name="action_exchange_point">EXCHANGE_POINT</string>
+    <string name="action_redeem_point">REDEEM_POINT</string>
+    <string name="action_transfer_point">TRANSFER_POINT</string>
+    <string name="action_trip_payment">TRIP_PAYMENT</string>
+    <string name="action_passenger_share_bonus">PASSENGER_SHARE_BONUS</string>
+    <string name="action_driver_share_bonus">DRIVER_SHARE_BONUS</string>
+    <!-- For language -->
+    <string name="msg_quit_app">Do you want to quit app?</string>
+    <string name="msg_offline">Do you want to offline?</string>
+    <string name="msg_logout">Do you want to logout?</string>
+    <string name="msg_language">Do you want to change language ?</string>
+    <string name="msg_do_you_cancel">Do you want to cancel</string>
+    <string name="msg_check_net_work">Please check the network!</string>
+    <string name="is_payment_diff">Is payment different from the actual amount?</string>
+    <string name="enter_total_amount">Enter Total Received Amount</string>
+
+    <!-- For language -->
+    <string name="lbl_english">English</string>
+    <string name="lbl_chinese">中文</string>
+
+    <!-- For Image -->
+    <string name="content_description">Content Description</string>
+
+    <!-- Text awesome Icon -->
+    <string name="fa_bar_chart_o">&#xf080;</string>
+    <string name="fa_file_pdf_o">&#xf1c1;</string>
+    <string name="fa_calendar_o">&#xf133;</string>
+    <string name="fa_user_secret">&#xf21b;</string>
+    <string name="fa_credit_card">&#xf09d;</string>
+    <string name="ic_star">&#xf005;</string>
+    <string name="ic_user">&#xf007;</string>
+    <string name="ic_home">&#xf015;</string>
+    <string name="ic_payment">&#xf0d6;</string>
+    <string name="ic_promotion">&#xf0a3;</string>
+    <string name="ic_share">&#xf1e0;</string>
+    <string name="ic_help">&#xf059;</string>
+    <string name="ic_history">&#xf1da;</string>
+    <string name="ic_online">&#xf0eb;</string>
+    <string name="ic_register_as_driver">&#xf1ba;</string>
+    <string name="ic_language">&#xf1ab;</string>
+    <string name="ic_phone">&#xf095;</string>
+    <string name="ic_rate">&#xf012;</string>
+    <string name="ic_menu">&#xe636;</string>
+    <string name="ic_facebook">&#xf09a;</string>
+    <string name="ic_google">&#xf0d5;</string>
+    <string name="ic_search">&#xe618;</string>
+    <string name="ic_note">&#xf0f6;</string>
+    <string name="ic_dolar"> &#xf155;</string>
+    <string name="ic_length">&#xf07e;</string>
+    <string name="ic_blance">&#xf19c;</string>
+    <string name="ic_point">&#xf1c4;</string>
+    <string name="ic_save">&#xe65f;</string>
+    <string name="ic_photo">&#xf03e;</string>
+    <string name="ic_avatar">&#xf234;</string>
+    <string name="ic_model">&#xf091;</string>
+    <string name="ic_year">&#xf073;</string>
+    <string name="ic_mail">&#xf003;</string>
+    <string name="ic_add">&#xf041;</string>
+    <string name="ic_des">&#xf05a;</string>
+    <string name="ic_brand">&#xf000;</string>
+    <string name="ic_money">&#xf0d6;</string>
+    <string name="ic_logout">&#xf011;</string>
+    <string name="ic_car">&#xf1b9;</string>
+    <string name="ic_state">&#xf239;</string>
+    <string name="ic_city">&#xf041;</string>
+
+    <string name="lbl_enter_real_distance">Enter real distance (Km)</string>
+    <string name="lbl_message_real_distance">Total</string>
+    <string name="lbl_link1">1 seat avaiable (Link I)</string>
+    <string name="lbl_link2">2 seat avaiable (Link II)</string>
+    <string name="lbl_link3">3 seat avaiable (Link III)</string>
+    <string name="lbl_request_link">Following requets has been sent</string>
+    <string name="lbl_you_are_now_online">You are now online</string>
+    <string name="lbl_waiting_for_request">You are waiting for customer requests</string>
+    <string name="lbl_awaiting">awaiting for tasker confirmation</string>
+    <string name="lbl_please">Please wait</string>
+    <string name="estimateFare">*Estimated fare:</string>
+    <string name="estFare">*Est Fare</string>
+    <string name="pointEstimated">$100 ~ </string>
+    <string name="lbl_please_wait_ten">(for demo please wait in 10 seconds)</string>
+    <string name="btn_cancel_trip">CANCEL TASK</string>
+    <string name="lblInfoInvalid">Infomation invalid</string>
+
+    <string name="lblPayoutStripe">Payout Stripe</string>
+
+    <string name="lbl_header_start_trip">your tasker is arrived</string>
+    <string name="lbl_header_trip_online">Begin your task</string>
+    <string name="ic_gps">&#xe6bb;</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_state">State</string>
+    <string name="lbl_city">City</string>
+    <string name="cancel">Cancel</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_brand_car">Brand of car</string>
+    <string name="lbl_year_manufacturer">Year manufacturer</string>
+    <string name="lbl_model_car">Model of Car</string>
+    <string name="lbl_header_trip_history">your tasker is detail task</string>
+    <string name="lbl_trip_detail">your trip detail</string>
+    <string name="lbl_header_driver_start_trip">Your tasker arrives</string>
+    <string name="lbl_show_passenger">Please go ahead to your customer location</string>
+    <string name="lbl_your_end_trip">Your task is end</string>
+    <string name="lbl_rating">Rating tasker</string>
+    <string name="lbl_rating_link">Rating</string>
+    <string name="lbl_starting_location">Start</string>
+    <string name="lbl_ending_location">End</string>
+    <string name="lbl_starting_location2">25 Los Angeles, America </string>
+    <string name="lbl_ending_location2">117 Los Angeles, American</string>
+    <string name="ic_twitter">&#xf173;</string>
+    <string name="ic_paypal">&#xf1ed;</string>
+    <string name="lbl_rating_passenger">Rating customer</string>
+    <string name="help">Help</string>
+    <string name="enterCurrentLocation">Enter address Or click right-side icon to select current location</string>
+
+    <!-- Text 7-stroke Icon -->
+    <string name="pe_7s_map_marker">&#xe638;</string>
+    <string name="pe_7s_menu">&#xe636;</string>
+    <string name="ic_back">&#xf104;</string>
+    <string name="ic_refresh">&#xe6c2;</string>
+
+    <!-- Text Demo -->
+    <string name="user_name">Steve Kwok Wah Au</string>
+    <string name="points">Points: 10000</string>
+    <string name="name">John doe</string>
+    <string name="a_123">A123 546 897</string>
+    <string name="car_plate">29A - 8888</string>
+    <string name="rate">5</string>
+    <string name="phone">0987654321</string>
+    <string name="phone_placeholder">Put a mobile number</string>
+    <string name="start_a">A point</string>
+    <string name="start_b">B point</string>
+    <string name="lbl_distance_between">Distance between tasker and you</string>
+    <string name="lbl_passenger">customer</string>
+    <string name="lbl_passenger2">customer2</string>
+    <string name="lbl_passenger_name">Customer Name</string>
+    <string name="lbl_twitter">Twitter</string>
+    <string name="lbl_recharge_via_paypal">Recharge via paypal</string>
+    <string name="lbl_transfers">Transfer</string>
+    <string name="lbl_request_conversion_point">Request conversion $</string>
+    <string name="lbl_total_point">Total $</string>
+    <string name="btnRequest">Request</string>
+    <string name="lbl_point_number">Money Number</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_driver_is_coming">Your tasker is coming</string>
+    <string name="lbl_conversion_point">Conversion money</string>
+    <string name="lbl_conversion_point_number">Conversion money number:</string>
+    <string name="lbl_point_max">Point max:</string>
+    <string name="lbl_numberpoint">100</string>
+    <string name="lbl_maxpoint">1000</string>
+    <string name="lbl_title_dialog">Invites you to enter the number of money</string>
+    <string name="lbl_number_transfer">Enter number transfers</string>
+    <string name="lbl_note">$1100 = HK$1000</string>
+    <string name="lbl_note_2">$2000 = HK$2000</string>
+    <string name="lbl_updateprofile">Update Profile</string>
+    <string name="model">R8 Black</string>
+    <string name="brand">Audi</string>
+    <string name="year">Year</string>
+    <string name="address">Los Angeles, America</string>
+    <string name="dob">19/06/1993</string>
+    <string name="description">Description</string>
+    <string name="email">fruity@gmail.com</string>
+
+    <!-- Text Trip History -->
+    <string name="lbl_kilometer">Km</string>
+    <string name="lbl_hour">Min</string>
+    <string name="lbl_transaction_id">Task Id</string>
+    <string name="lbl_link_trip">Link</string>
+    <string name="lbl_driver_history">Name Tasker</string>
+    <string name="lbl_to_history">End Time</string>
+    <string name="lbl_from_history">Start Time</string>
+    <string name="lbl_destination_history">Destination</string>
+    <string name="lbl_place_history">Departure</string>
+    <string name="lbl_date_history">Date</string>
+    <string name="lbl_total_history">Total</string>
+    <string name="lbl_total_time_history">Time</string>
+    <string name="lbl_total_length_history">Length</string>
+    <string name="lbl_total_point_history">Total $</string>
+    <string name="demo_id_history">#123</string>
+    <string name="demo_name_history">Mack Jone</string>
+    <string name="demo_date">8:30, 22/6/2015</string>
+    <string name="demo_time">1</string>
+    <string name="demo_length">40</string>
+    <string name="demo_total">$60</string>
+    <string name="demo_place">Michigan Ave</string>
+    <string name="demo_destination">Union Pacific</string>
+    <string name="btnupdateprofile">Update</string>
+    <string name="btnnoupdateprofile">No</string>
+    <string name="lbl_namedrive">A123 456 789</string>
+    <string name="lbl_request_passenger">Request customer</string>
+    <string name="lblreceiver_link">You have received LINK</string>
+
+    <string name="lbl_your_balance"> Your Balance</string>
+    <string name="lbl_balance">Balance:</string>
+    <string name="lbl_success">Success</string>
+
+    <!-- Text Payment -->
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_transactionId">Tran.ID</string>
+    <string name="lbl_points">$</string>
+    <string name="lbl_notes">Note</string>
+    <string name="lbl_datetime">Date Time</string>
+    <string name="lbl_type">Type</string>
+    <string name="lbl_for">For</string>
+    <string name="lbl_passenger_mobile">Customer mobile</string>
+    <string name="lbl_your_passenger_name">Customer name</string>
+    <string name="demo_for_pament">Information for everyone</string>
+    <string name="lbl_content_help">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. including versions of Lorem Ipsum.</string>
+    <string name="lbl_section_help_one">Taxi Near, a emerging true ride sharing mobile platform to link up customer with tasker</string>
+    <string name="lbl_section_help_two">Whether you are tasker driving with your relatives and friend, you can also share your journey with other passenger with simialr route.</string>
+    <string name="lbl_section_help_three">© 2015 by Mobile App. Proudly created by Taxi Near</string>
+    <string name="lbl_help_bottom">Taxi Near is not a transportation company.</string>
+    <string name="message_have_some_error">Have some error, please try again later</string>
+    <string name="message">please Rate before Payment</string>
+    <string name="message_can_not_get_gmc">Can not get GMC, please try again later</string>
+    <string name="message_please_select_start_and_end">Please select start and end location</string>
+    <string name="message_please_enter_amount">Please enter amount</string>
+    <string name="message_amount_is_not_validate">Amount is not validate</string>
+    <string name="message_wait_for_location">Wait for location service</string>
+    <string name="message_please_enter_distance">Please enter distance</string>
+    <string name="message_please_install_file_manager">Please install a File Manager</string>
+    <string name="message_please_enter_full_information">Please enter full information</string>
+    <string name="message_your_balance_is_not_eounght">Your balance is not eought, you need by</string>
+    <string name="message_point">$</string>
+    <string name="message_you_trip_cancel_by_driver">Your order has been cancelled by tasker</string>
+    <string name="message_you_request_cancel_by_driver">Your request has been cancelled by tasker</string>
+    <string name="message_you_trip_cancel_by_passenger">Your order has been cancelled by customer</string>
+    <string name="message_register_success">Register Success</string>
+    <string name="message_update_driver">Your changes are waiting for approval.</string>
+    <string name="message_have_no_more_data">Have no more data</string>
+    <string name="message_your_account_in_wait">Your account in wait admin approve</string>
+    <string name="select_photo_from">Get image from</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <string name="login_fail">Login fail, please try again later</string>
+    <string name="message_please_enter_point">Please enter $</string>
+    <string name="message_point_invalid">You are not enough $</string>
+    <string name="message_point_min">Please enter min $500</string>
+    <string name="message_point_select">Please enter $3000 or $5000</string>
+    <string name="message_turn_on_gps">Please turn on GPS before start task</string>
+    <string name="msg_call_phone">Have no phone number</string>
+    <string name="msgEstimatedFare">Estimated fare: $%.2f  . Do you want to continue?</string>
+    <string name="msg_no_phone_number">Please update mobile number before raise order</string>
+    <string name="checkDirection">The direction A to B that is not verified by the map yet. You should choose either suggestion address or pick a point on a map</string>
+
+    <string name="alert_gps">Your GPS seems to be disabled, please enable it</string>
+
+    <string name="notify_file_upload_size">Please choose the maximum file size is 2Mb</string>
+
+    <string name="lbl_seat">Type</string>
+    <string name="lbl_from_a">From A</string>
+    <string name="lbl_driving_to">Driving to</string>
+    <string name="lblDistance">Distance</string>
+    <string name="lblDistanceDot">Distance:</string>
+    <string name="lblTime">Times</string>
+    <string name="lbl_to_b">To B:</string>
+    <string name="lbl_to_a">To A:</string>
+    <string name="lblDuration">Duration:</string>
+    <string name="lbl_point">Fare</string>
+    <string name="lbltask">Task Name:</string>
+    <string name="lblTimeStart">Time Start:</string>
+    <string name="lblCountTime">Count Time:</string>
+    <string name="lbl_request_by_passenger">REQUEST</string>
+    <string name="lbl_request_by_arrived">ARRIVING</string>
+    <string name="lbl_request_by_arrived1">ARRIVED</string>
+    <string name="lbl_request_by_driving">DRIVING</string>
+    <string name="lbl_request_by_finished">FINISHED</string>
+    <string name="lbl_car">Car</string>
+    <string name="lbl_notify_pasenger_arriving">Your tasker is driving</string>
+    <string name="lbl_notify_pasenger_arriving1">You are driving</string>
+    <string name="lbl_notify_pasenger_finish">Your task has finished</string>
+    <string name="lbl_login_orther_user">User logged in as different Facebook user. Please login again.</string>
+    <string name="lbl_login_fail_facebook_hidden_email">Your facebook account is hiding email from the public. Please make sure you specify and share your email from your facebook account.</string>
+    <string name="lbl_img_required">"Please update new car photo"</string>
+
+
+    <string name="lbl_time">Duration</string>
+    <string name="lbl_distance">Distance</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="cannot_login_by_facebook">Can not login by facebook</string>
+    <string name="cannot_login_by_google">Cannot login by google</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="msgValidateBalance">Your balance [a] is not enough to book this trip about [b]</string>
+    <string name="msgCountDriver"> [a] tasker has received your request. Your request will auto refresh every [b] seconds</string>
+    <string name="card_number">Card Number</string>
+    <string name="dontCloseScreen">Don\’t close this screen during the trip</string>
+    <string name="msgDrivingComingDistance">[a] to A ([b])</string>
+    <string name="msgBeginTripDistance">[a] to B ([b])</string>
+    <string name="msgAccountInActive">Your account is deactivated. Please contact admin to activate it</string>
+    <string name="lblPickUp">Pick up</string>
+    <string name="lblDestination">Destination</string>
+    <string name="lblCurrency">$</string>
+    <string name="password">Password</string>
+    <string name="lbl_signup">Sign Up</string>
+    <string name="postCode">Post code</string>
+    <string name="sedan4">Sedan 4</string>
+    <string name="suv6">Suv 6</string>
+    <string name="lux">Lux</string>
+    <string name="lblCompany">HiCom Solutions</string>
+    <string name="lblAboutUs1">
+Provides Android, iOS, Web Source Codes and Development Services.</string>
+    <string name="lblAboutUs2">
+Highly Committed to Quality Products and Excellent Services.
+</string>
+    <string name="lblWebsite">http://hicomsolutions.com.au</string>
+    <string name="lblAlwayScreen">Always stay this screen during task</string>
+    <string name="lblAlwayOnline">Always stay this screen while online</string>
+    <string name="lblValidateImage">Choose avatar by tapping on the image</string>
+    <string name="lblValidateAllInfo">Please fill all infomation</string>
+    <string name="lblChooseAvatar">Tap to update avatar</string>
+    <string name="lblValidateRate">Rate value has to exceed than 0</string>
+    <string name="lblPayoutSuccess">Your payout request has been sent</string>
+    <string name="lblPayoutPaypal">Payout Paypal(optional)</string>
+    <string name="lblPayoutPaypalHint">Payout Paypal</string>
+    <string name="lblPayoutPaypalBinding">Payout Paypal</string>
+    <string name="lblCarPhoto">Car Photo</string>
+    <string name="lblPhoto"> Photo</string>
+    <string name="lblValidateUpdateImage">Can not change avatar here. Please change it from your social account instead</string>
+
+    <string name="lblWaiting">Waiting for GPS Only signal. It may take up to 2 minutes</string>
+    <string name="lblClearGps">Make sure device\'s GPS is good and have a clear sky view</string>
+    <string name="lblSetingGps">You must settings location only gps</string>
+    <string name="lblCanNotgetGps">Can not get GPS signal. Make sure your device supports GPS well and have a clear sky view. Then tap on "Online" again</string>
+
+    <string name="message_name">Please input Name</string>
+    <string name="message_phone">Please input Phone</string>
+    <string name="message_email">Please input Email</string>
+    <string name="message_email2">Wrong Email Type</string>
+    <string name="message_password">Please input Password</string>
+    <string name="message_carPlate">Please input CarPlate</string>
+    <string name="message_model">Please input Model</string>
+    <string name="message_brand">Please input Brand</string>
+    <string name="message_year">Please input Year</string>
+    <string name="message_status">Please input Status</string>
+    <string name="message_Acount">Please input PayPal</string>
+    <string name="message_Acount2">Wrong PayPal Type</string>
+    <string name="message_identity">Please input Identity</string>
+    <string name="message_document">Please input Document</string>
+    <string name="message_moreImage">Please input 2 Images</string>
+    <string name="message_address">Please input Address</string>
+    <string name="message_State">Please input State</string>
+    <string name="message_postcode">Please input Post code</string>
+    <string name="message_description">Please input Description</string>
+    <string name="no_intenet">No internet connection</string>
+    <string name="messsage_state_empty">State is Empty</string>
+    <string name="loadding_state_error">Loading State Error</string>
+    <string name="done">Done</string>
+
+    <string name="pay_by_paypal">From Balance</string>
+    <string name="have_promocode"><u>Do you have any promo code?</u></string>
+    <string name="lbl_paybycash">By Cash</string>
+    <string name="lbl_payment_method2">Payment</string>
+
+    <string name="question">Did you receive payment of the trip yet?</string>
+    <string name="message_balance">Your account balance is not sufficient to take action. Please recharge to continue.</string>
+    <string name="explain">( If customer pay in cash, the amount of money deducted in your account is : $%1$s
+                            \n\nIf customer pay by points, the amount of money added in your account is : $%2$s )</string>
+
+
+    <string name="enter_amount">Please enter amount</string>
+    <string name="invalid_point">Point is invalid</string>
+    <string name="blank_amount">Amount not blank</string>
+    <string name="invalid_info">Information invalid</string>
+    <string name="enter_message">Please enter message</string>
+    <string name="choice_new_image">Please choise new images</string>
+    <string name="gps_setting">GPS settings</string>
+    <string name="setting">Settings</string>
+    <string name="update_paypal">Please update payout paypal</string>
+    <string name="payment_successfully">Payment successfully</string>
+    <string name="rating_successfully">Rating Successfully</string>
+    <string name="already_rated">You already rated this task</string>
+    <string name="made_payment_before">You must made payment before rating</string>
+    <string name="payment_already">Payment already done</string>
+    <string name="minutes">minutes</string>
+    <string name="sent_otp">We have sent maniyou an OTP on your registered email.</string>
+    <string name="wifi_setting">Wifi is settings</string>
+    <string name="wifi_disable">Wifi is not enabled. Do you want to go to settings menu?</string>
+    <string name="distance_is">The distance is:</string>
+    <string name="and_time_working">and time working:</string>
+    <string name="ok">ok</string>
+    <string name="wait_for_location">Wait for location service</string>
+    <string name="enter_promo">Please enter promocode</string>
+    <string name="promo_applied">Promocode Applied</string>
+    <string name="add_point">Add Point</string>
+    <string name="can_not_find">Can not find location</string>
+    <string name="taxi_driver">Taxi Driver</string>
+    <string name="this_taxi">This is a Taxi Near</string>
+    <string name="welcome_upro">Welcome to Upro.</string>
+    <string name="not_share">Not share</string>
+    <string name="confirm">Confirm?</string>
+    <string name="no_did">No, I did not</string>
+    <string name="yes_did">Yes,  I did</string>
+    <string name="tasker_arriving">Tasker arriving A</string>
+    <string name="driver_is_coming">Driver Is Coming</string>
+    <string name="chat">Chat</string>
+    <string name="card_number_credit">Card Number</string>
+    <string name="month_year">Month/Year</string>
+    <string name="month">Month</string>
+    <string name="year_credit">Year</string>
+    <string name="cvv">CVV Number</string>
+    <string name="cvc">CVC</string>
+    <string name="send">Send</string>
+    <string name="submit">Submit</string>
+    <string name="note_content">Note content</string>
+    <string name="otp">OTP</string>
+    <string name="identity">Identity</string>
+    <string name="trip">Trip</string>
+    <string name="task">Task</string>
+    <string name="pay_via">Pay via</string>
+    <string name="amount_dollar">Amount($)</string>
+    <string name="receiver_phone">Receiver phone</string>
+    <string name="task_finished">Your task has finished</string>
+    <string name="go_to_b">Go to B</string>
+    <string name="arrived_b">Arrived B</string>
+    <string name="begin_task">Begin Task</string>
+    <string name="have_promocode_only">Have promocode?</string>
+    <string name="book_now">Book Now</string>
+    <string name="write_message">Write a message</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_ask">Forgot Password?</string>
+    <string name="amount">Amount</string>
+    <string name="request_task">Request Task</string>
+    <string name="book">Book</string>
+    <string name="login">Login</string>
+    <string name="or_login">Or you can login via</string>
+    <string name="create_new">CREATE NEW ACCOUNT</string>
+    <string name="apply">Apply</string>
+    <string name="year_picker">Year Picker</string>
+    <string name="select">Select</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="language_updated">App language updated successfully</string>
+    <string name="arabic">Arabic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission">Please first turn on permission</string>
+
+
+</resources>

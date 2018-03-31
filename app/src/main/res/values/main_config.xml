@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aamrny</string>
+
+    <!--<string name="web_service_config">https://aamrny.com/admin-ali/index.php/api/</string>-->
+    <string name="web_service_config">http://202.164.42.226/dev/upro/index.php/api/</string>
+    <string name="facebook_id">794263664088647</string>
+    <string name="key_map">AIzaSyA1gKO1FdKTDF_kizHzLvJwKFCJpbwak4Y</string>
+    <string name="google_app_id_map">1094949744293</string>
+    <string name="stripe_publishable_key">pk_test_fOxh0bvUU9Hhk9ZyoRkHZCy4</string>
+
+</resources>

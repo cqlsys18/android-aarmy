@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/primary" >
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"            
+            android:text="@string/lbl_request_link"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold" />
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/lbl_awaiting"
+            android:textColor="@color/white" />
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_horizontal_xlarge"
+            android:text="@string/lbl_please"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnCancelTrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_horizontal_xxlarge"
+            android:paddingLeft="@dimen/space_small"
+            android:paddingRight="@dimen/space_small"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="@string/btn_cancel_trip"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/primary" >
+
+    <com.alaryani.aamrny.widget.TextViewPixeden
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="@string/ic_back"
+        android:textColor="@color/white"
+        android:textSize="@dimen/space_xlarge" />
+
+    <com.alaryani.aamrny.widget.TextViewRaleway
+        android:id="@+id/lblTitle"
+        style="@style/Layout.WrapWidthHeight"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_header" />
+
+</RelativeLayout>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/space_small"
+            android:paddingRight="@dimen/space_small">
+
+            <LinearLayout
+                android:id="@+id/llHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_1x"
+                android:background="@drawable/bg_border_radius_white"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <ImageButton
+                    android:id="@+id/imgHelp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/ic_phone_white" />
+
+                <com.alaryani.aamrny.widget.TextViewPixeden
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dimen_05x"
+                    android:text="@string/help"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5x"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle_full" />
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/textViewFontAwesome"
+                        style="@style/title_circle_full" />
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle_full" />
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle_full" />
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/step_full"
+                        style="@style/title_circle_full"
+                        android:visibility="gone" />
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/tv_step"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_request_by_finished"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+                    <com.alaryani.aamrny.widget.TextViewFontAwesome
+                        android:id="@+id/step_circle"
+                        style="@style/title_circle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_tiny"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingRight="@dimen/space_small"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/space_tiny">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/lblNorify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_notify_pasenger_finish"
+                        android:textColor="@color/message_header"
+                        android:textSize="@dimen/text_size_normal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/llProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_size_passeger"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@+id/imgCar">
+
+                    <ImageView
+                        android:id="@+id/imgPassenger"
+                        android:layout_width="@dimen/img_size_passeger"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/space_small"
+                        android:paddingRight="@dimen/space_small">
+
+                        <com.alaryani.aamrny.widget.TextViewRaleway
+                            android:id="@+id/lblName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/black" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <com.alaryani.aamrny.widget.TextViewRaleway
+                                android:id="@+id/lblPhone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text=""
+                                android:textColor="@color/black" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:id="@+id/txtStar"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="0"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/text_size_xlarge" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_star_vote" />
+                            </LinearLayout>
+
+                            <RatingBar
+                                android:id="@+id/ratingBar_user"
+                                style="@style/userRatingBar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:clickable="false"
+                                android:isIndicator="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--<ImageView-->
+                <!--android:id="@+id/imgCar"-->
+                <!--android:layout_width="@dimen/img_size_passeger"-->
+                <!--android:layout_height="@dimen/img_size_passeger"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginLeft="@dimen/dimen_025x"-->
+                <!--android:background="@color/text_hint"-->
+                <!--android:gravity="left"-->
+                <!--android:scaleType="fitXY"-->
+                <!--android:text="@string/car_plate"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:visibility="gone" />-->
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/lbl_seat"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/tvSeat"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/lbl_from_a"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/lblStartLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text=""
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/lbl_to_b"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/lblEndlocation"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/lbl_car_plate_hint"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/txtCarPlate"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/identity"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/txtIdentity"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text="" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/trip"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/txtTrip"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/task"
+                    android:textStyle="bold" />
+
+                <com.alaryani.aamrny.widget.TextViewRaleway
+                    android:id="@+id/txtTask"
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.3"
+                    android:text="" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:text="@string/lbl_point"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblPoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:text="40"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btnSend"
+                        style="@style/button"
+                        android:layout_marginBottom="@dimen/space_normal"
+                        android:background="@color/from"
+                        android:text="@string/lbl_paynow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lo_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_tiny"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/text_14_white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:text="@string/lbl_rate"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        style="@style/userRatingBarWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:rating="0" />
+
+                    <TextView
+                        android:id="@+id/btnRate"
+                        style="@style/button"
+                        android:layout_width="159dp"
+                        android:background="@color/to"
+                        android:text="@string/lbl_rate" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

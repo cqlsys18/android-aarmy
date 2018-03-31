@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_header_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_small"
+            android:gravity="center"
+            android:paddingLeft="@dimen/space_small"
+            android:paddingRight="@dimen/space_small">
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle_full" />
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:id="@+id/tv_step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_request_by_passenger"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_title"
+                android:textStyle="bold" />
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="@string/lbl_request_link"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textStyle="bold" />
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="@string/lbl_awaiting"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnCancelTrip"
+                style="@style/button"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_vertical_xxlarge"
+                android:background="@color/from"
+                android:text="@string/btn_cancel_trip" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_small"
+                android:text="@string/estimateFare"
+                android:textColor="@color/white" />
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:id="@+id/txtEstimateFare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/padding_vertical"
+        android:orientation="horizontal">
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/txtCountDriver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_small"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

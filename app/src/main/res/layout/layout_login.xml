@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.67">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_login" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/space_normal">
+
+        <EditText
+            android:id="@+id/txtUsername"
+            style="@style/et_edit_profile_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center"
+            android:hint="@string/lbl_email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@+id/txtPassword"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            style="@style/et_edit_profile_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="@dimen/space_small"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_tiny"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/space_tiny">
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:id="@+id/txtLogin"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/yellow_dark"
+                android:gravity="center"
+                android:padding="@dimen/space_small"
+                android:text="@string/login"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_xlarge" />
+
+            <com.alaryani.aamrny.widget.TextViewFontAwesome
+                android:id="@+id/txtForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/forgot_password_ask"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:background="@color/primary"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/or_login"
+            android:text="@string/or_login"
+            android:textColor="@color/yellow_dark"
+            android:textSize="@dimen/text_size_xlarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:paddingBottom="2dp"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/btnLoginFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_facebook_circle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnLoginGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_google_circle" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.13"-->
+    <!--android:background="@color/primary"-->
+    <!--android:gravity="center">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="You can login via"-->
+    <!--android:textColor="@color/second_primary"-->
+    <!--android:textSize="28sp" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="0.2"-->
+    <!--android:background="@color/primary"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingLeft="24dp"-->
+    <!--android:paddingRight="24dp">-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/btnLoginFacebook"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/ic_face_new"-->
+    <!--android:orientation="horizontal"></RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/btnLoginGoogle"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:background="@drawable/ic_google"-->
+    <!--android:orientation="horizontal"></RelativeLayout>-->
+
+    <!--</LinearLayout>-->
+    <com.alaryani.aamrny.widget.TextViewFontAwesome
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:padding="@dimen/space_small"
+        android:text="@string/create_new"
+        android:textColor="@color/black" />
+
+</LinearLayout>

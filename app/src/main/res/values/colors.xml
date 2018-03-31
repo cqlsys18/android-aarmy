@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="background_main">#4b6a00</color>
+    <color name="background_rank_column">#172f35</color>
+    <color name="background_top_4">#689401</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="tab_textColor">#ffffff</color>
+    <color name="textColor_curentRound">#fcc701</color>
+    <color name="tab_textColor_selected">#878787</color>
+    <color name="tab_textColor_unselected">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="gray2">#b8b8b8</color>
+    <color name="gray3">#757575</color>
+    <color name="black">#000000</color>
+    <color name="red">#b81313</color>
+    <color name="white">#ffffff</color>
+    <color name="white70">#50ffffff</color>
+    <color name="list_item_odd">#80878787</color>
+    <color name="blue_android">#33B5E5</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow_dark">#fcc701</color>
+    <color name="indicator_color">#FF666666</color>
+    <color name="underline_color">#1A000000</color>
+    <color name="divider_color">#1A000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_trip">#333333</color>
+    <color name="background_twitter">#00A7E7</color>
+    <color name="text_hint">#cdcdcd</color>
+    <color name="text_hint_two">#fcf1ca</color>
+    <color name="phone_trip">#5c5c5c</color>
+
+    <!-- Menu color -->
+    <color name="bluer_text">#097894</color>
+    <color name="menu_header_background">#097894</color>
+    <color name="menu_content_background">#176E9A</color>
+    <color name="to">#11b800</color>
+    <color name="from">#ff5252</color>
+    <color name="background_findcar">#097894</color>
+    <color name="background_total_history">#b4cde6</color>
+    <color name="color_book">#333333</color>
+    <color name="a">#FFFFFFFF</color>
+    <color name="background">#097894</color>
+    <color name="background_link">#4A66A0</color>
+    <color name="background_paypal">#179BD7</color>
+
+
+    <color name="primary">#305093</color>
+    <color name="bg_menu">#0d1547</color>
+    <color name="second_primary">#e8c03a</color>
+    <color name="primary_transparent">#DD305093</color>
+    <color name="primary_clicked">#80305093</color>
+    <color name="text_profile">#5d5d5d</color>
+    <color name="blue">#2196f3</color>
+    <color name="blue_80">#802196f3</color>
+    <color name="gray_80">#b8b9ba</color>
+
+    <color name="message_header">#8f8f8f</color>
+    <color name="left_gray_color">#363E44</color>
+    <color name="transparent_white">#80FFFFFF</color>
+
+</resources>

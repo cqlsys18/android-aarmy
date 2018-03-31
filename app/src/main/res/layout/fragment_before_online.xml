@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_vertical_large"
+        android:gravity="center">
+
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/lblRequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_request_by_passenger"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_title"
+            android:textStyle="bold" />
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+
+        <com.alaryani.aamrny.widget.TextViewFontAwesome style="@style/title_circle" />
+    </LinearLayout>
+
+    <com.alaryani.aamrny.widget.TextViewRaleway
+        android:id="@+id/lbl_Online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_vertical_large"
+        android:layout_marginRight="@dimen/margin_vertical_large"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:gravity="center"
+        android:text="@string/lbl_guide"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnOnline"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_below="@+id/textView2"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_vertical_xxlarge"
+        android:background="@drawable/custom_button_two"
+        android:gravity="center"
+        android:text="@string/lbl_online"
+        android:textColor="@color/white" />
+
+    <com.alaryani.aamrny.widget.TextViewRaleway
+        android:id="@+id/lblWaiting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_vertical_large"
+        android:layout_marginRight="@dimen/margin_vertical_large"
+        android:layout_marginTop="@dimen/margin_vertical"
+        android:gravity="center"
+        android:text="@string/lblClearGps"
+        android:textColor="@color/yellow_dark" />
+
+</LinearLayout>

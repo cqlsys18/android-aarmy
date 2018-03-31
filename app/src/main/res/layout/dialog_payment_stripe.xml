@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_1x">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_05x"
+                android:text="@string/card_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_normal" />
+
+            <EditText
+                android:id="@+id/cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_textbox_white"
+                android:hint="@string/card_number"
+                android:inputType="number"
+                android:padding="@dimen/dimen_1x"
+                android:text="4242 4242 4242 4242"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_1x"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_05x"
+                android:text="@string/month_year"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_1x"
+                    android:background="@drawable/bg_textbox_white"
+                    android:ems="10"
+                    android:hint="@string/month"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:padding="@dimen/dimen_1x"
+                    android:textSize="@dimen/text_size_normal" />
+
+                <EditText
+                    android:id="@+id/year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_textbox_white"
+                    android:ems="10"
+                    android:hint="@string/year"
+                    android:inputType="number"
+                    android:maxLength="5"
+                    android:padding="@dimen/dimen_1x"
+                    android:textSize="@dimen/text_size_normal" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_1x"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_05x"
+                android:text="@string/cvv"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/cvc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_textbox_white"
+                android:hint="@string/cvc"
+                android:inputType="number"
+                android:maxLength="3"
+                android:padding="@dimen/dimen_1x"
+                android:text="123"
+                android:textSize="@dimen/text_size_normal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue_android"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dimen_1x"
+            android:paddingTop="@dimen/dimen_1x"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </LinearLayout>
+</LinearLayout>

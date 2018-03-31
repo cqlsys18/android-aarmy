@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary">
+
+        <ImageButton
+            android:id="@+id/btnBackUpdate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:src="@drawable/ic_header_back"
+            android:text="@string/ic_back" />
+
+        <com.alaryani.aamrny.widget.TextViewRaleway
+            android:id="@+id/lblTitle"
+            style="@style/Layout.WrapWidthHeight"
+            android:layout_centerInParent="true"
+            android:gravity="right"
+            android:text="@string/lbl_updateprofile"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_header" />
+
+        <com.alaryani.aamrny.widget.TextViewPixeden
+            android:id="@+id/btnSave"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="@string/ic_save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_normal" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_vertical"
+            android:layout_marginRight="@dimen/margin_vertical"
+            android:layout_marginTop="@dimen/margin_horizontal"
+            android:paddingBottom="@dimen/space_large"
+            android:orientation="vertical">
+
+
+            <com.alaryani.aamrny.widget.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="@dimen/profile_avartar_size"
+                android:layout_height="@dimen/profile_avartar_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_avatar_default"
+                app:border_color="@color/white"
+                app:border_width="2dp" />
+
+            <com.alaryani.aamrny.widget.TextViewRaleway
+                android:id="@+id/txtTapAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/lblChooseAvatar"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/btnUpdate"
+                android:layout_width="@dimen/profile_avartar_size"
+                android:layout_height="@dimen/btn_height_small"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/space_nano"
+                android:background="@drawable/ic_red_button"
+                android:gravity="center"
+                android:text="@string/lbl_browse"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_user"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_name"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateNameDrive"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/name" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small">
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_phone"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_phone"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdatePhone"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_phone"
+                        android:inputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_mail"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_email"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateEmail"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_email" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+              >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_add"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_address"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateAddress"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_address" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+              >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_state"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_state"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <Spinner
+                        android:id="@+id/sp_state"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_address" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_add"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_city"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/sp_city"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_city" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+            >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_des"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/postCode"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateDescription"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/postCode" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCarPlate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_register_as_driver"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_plate"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateCarPlate"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_plate" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llIdentity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+              >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_register_as_driver"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="Identity"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtIdentity"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Identity" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+               >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_model"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_model_car"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateModelCar"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_model_car" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llBrand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_brand"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_brand_car"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateBankCar"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_brand_car" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llTypeCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+               >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_register_as_driver"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lblJobCar"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <Spinner
+                        android:id="@+id/spTypeCar"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_address" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+               >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_year"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_year_manufacturer"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateYear"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_year_manufacturer" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+                >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_payment"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:id="@+id/txtStatusPaypalOption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lblPayoutPaypal"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateAccount"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lblPayoutPaypalHint" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+               >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/ic_share"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_status"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtUpdateStatus"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_status" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDocument"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/space_nano"
+                android:paddingLeft="@dimen/space_small"
+               >
+
+                <com.alaryani.aamrny.widget.TextViewFontAwesome
+                    android:layout_width="@dimen/icon_width"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/fa_file_pdf_o"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xlarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/space_small"
+                    android:paddingLeft="@dimen/space_small">
+
+                    <com.alaryani.aamrny.widget.TextViewRaleway
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="@string/lbl_document"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_normal" />
+
+                    <EditText
+                        android:id="@+id/txtDocument"
+                        style="@style/et_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/lbl_document" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/imgCar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgphoto1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="@dimen/margin_small"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_horizontal"
+                    android:background="@color/white"
+                    android:contentDescription="@string/content_description"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_upload" />
+
+                <ImageView
+                    android:id="@+id/imgphoto2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="@dimen/margin_horizontal"
+                    android:background="@color/white"
+                    android:contentDescription="@string/content_description"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_upload" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
